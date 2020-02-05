@@ -8,7 +8,17 @@
  */
 
 function perfectShuffle(array) {
-  // This is your job. :)
+  let shuffleArray = []
+// i've done this problem before last semester, and I remember to divide it into two
+
+// because the first half of the array is administrated into 0, 2, and 4
+// the second half if into 1, 3, 5
+// originally, I try to hand change the array indeces, but that doesn't work for everything which I remember is wrong
+// because I don't know how to do the other way without hand changing the indeces, I included my code
+  for (i = 0; i < array.length/2; i += 1) {
+    shuffleArray.push
+  }
+  return array
 }
 
 let sanityCheck = require('./sanityCheck');
