@@ -9,9 +9,9 @@
  *   13 times 4 is 52
  */
 function timesTable13(n) {
-  // This is your job. :)
-
-  // Use console.log to print out statements like "13 times 5 is 65"
+  for (i = 0; i <= n; i += 1) {
+    console.log('13 times ' + i + ' is ' + i*13)
+  }
 }
 
 if (require.main === module) {
